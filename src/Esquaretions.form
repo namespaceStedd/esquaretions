@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Esquaretions">
+  <grid id="27dc6" binding="esquaretions" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1280" height="720"/>
+    </constraints>
+    <properties>
+      <maximumSize width="1280" height="720"/>
+      <minimumSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="93790">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="babb2" class="javax.swing.JLabel" binding="heading">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <iconTextGap value="4"/>
+          <text value="&lt;html&gt;&lt;B&gt;Решение квадратных уравнений&lt;/B&gt;&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="71729" class="javax.swing.JLabel" binding="type">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;html&gt;Введите квадратное уравнение в виде  &lt;B&gt;ax^2 + bx + c = 0&lt;/B&gt;  : &lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="7221a" class="javax.swing.JTextField" binding="equation">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Введите уравнение здесь"/>
+        </properties>
+      </component>
+      <component id="c710b" class="javax.swing.JLabel" binding="solutionLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <iconTextGap value="4"/>
+          <text value="&lt;html&gt;&lt;B&gt;Решение:&lt;/B&gt;&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="b9b5c" class="javax.swing.JTextArea" binding="solution">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fe02c" class="javax.swing.JLabel" binding="answerLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;html&gt;&lt;B&gt; Ответ  : &lt;/B&gt;&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="f1e30" class="javax.swing.JTextField" binding="answer">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Ваш ответ"/>
+        </properties>
+      </component>
+      <component id="37387" class="javax.swing.JButton" binding="solve">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Решить"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
